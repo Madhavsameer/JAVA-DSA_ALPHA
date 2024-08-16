@@ -8,6 +8,7 @@ public class factorial {
         
         
     }
+    
 
     public static void factorialFind(){
         Scanner sc=new Scanner (System.in);
