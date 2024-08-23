@@ -1,3 +1,4 @@
+package PRACTICE;
 /**
  * trickyprogram
  */
@@ -13,7 +14,7 @@ public class trickyprogram {
             char ch= str.charAt(i);
             
             int times=Character.getNumericValue(str.charAt(i+1));
-            for(int j=0; j<=times; j++){
+            for(int j=1; j<=times; j++){
                 System.out.print(ch);
             }
 
